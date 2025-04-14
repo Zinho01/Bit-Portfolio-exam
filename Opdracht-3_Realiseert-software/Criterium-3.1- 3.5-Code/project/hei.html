@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="music.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+        <nav class="bg-white-800">
+            <div class="mx-auto px-2 sm:px-6 lg:px-8">
+                <div class="relative flex h-16 items-center justify-between">
+                    <div class="flex items-center sm:hidden">
+                        <!-- Mobile menu button-->
+                        <button type="button"
+                            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="absolute -inset-0.5"></span>
+                            <span class="sr-only">Open main menu</span>
+                            <!--
+                      Icon when menu is closed.
+          
+                      Menu open: "hidden", Menu closed: "block"
+                    -->
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            <!--
+                      Icon when menu is open.
+          
+                      Menu open: "block", Menu closed: "hidden"
+                    -->
+                            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex flex-1 sm:items-stretch justify-start">
+                        <div class="flex flex-shrink-0 items-center">
+                            <img class="h-16 w-auto"
+                                src="https://cdn.freebiesupply.com/images/large/2x/pokemon-logo-black-transparent.png"
+                                alt="Your Company">
+                        </div>
+                        <div class="hidden sm:ml-6 sm:block mt-4">
+                            <div class="flex space-x-4">
+                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        <audio controls autoplay muted>
+                            <source src="music/13 - Lake.mp3" type="audio/mpeg">
+                            <source src="music/1-46. Nimbasa City Gym - Stage.mp3" type="audio/mpeg">
+                            <source src="music/2-02. Driftveil City.mp3" type="audio/mpeg">
+                            <source src="music/56 - Eterna Forest.mp3" type="audio/mpeg">
+                            <source src="music/58 - Eterna City (Daytime).mp3" type="audio/mpeg">
+                            <source src="music/97 - Twinleaf Town (Nighttime).mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden" id="mobile-menu">
+                <div class="space-y-1 px-2 pb-3 pt-2">
+                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                    <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                        aria-current="page">Dashboard</a>
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+                </div>
+            </div>
+        </nav>
+
+
+    <div class="fixed inset-0 z-50 overflow-auto hidden" id="konamiModal">
+        <div class="flex items-center justify-center min-h-screen">
+          <div class="bg-white p-8 rounded shadow-lg">
+            <h2 class="text-2xl font-semibold mb-4">Secret Unlocked!</h2>
+            <div class="sites-embed-align-left-wrapping-off">
+                <div class="sites-embed-border-off sites-embed" style="width:900px;">
+                    <div class="sites-embed-content sites-embed-type-ggs-gadget">
+                        <iframe width="900" height="600" scrolling="no" frameborder="0" id="1754059280" name="1754059280"
+                            allowtransparency="true" class="igm"
+                            src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=8be8763db9005d0&amp;libs=core&amp;parent=https://sites.google.com/site/solarunblockedgames/home/pokemon-red#up_scroll=auto&amp;up_iframeURL=https://mkgamesdev.github.io/MKGBA2.0/launcher.html%23pokemonred&amp;st=e%3DAIHE3cDvOYD9Z%252BikeREWzcwnDBcLURNdjiL7i0UPYP7hW4UxkNQjNPuDhVsCYcYmUfzq5m3kVLlGbxQRFEI7ASuNx5US5GtuA%252FRPgKLOVT1GNwZ8ZC8vuBerDqvKz4E5hs0ydMxt0W8Z%26c%3Denterprise&amp;rpctoken=-6596244589032334870">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <button id="closeModal" class="mt-4 bg-gray-300 hover:bg-gray-400 py-2 px-4 rounded-md">Close</button>
+          </div>
+        </div>
+      </div>      
+</body>
+
+</html>
