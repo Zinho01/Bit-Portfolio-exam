@@ -1,0 +1,48 @@
+ID,Team,Title,Description,Status,Estimate,Priority,Project ID,Project,Creator,Assignee,Labels,Cycle Number,Cycle Name,Cycle Start,Cycle End,Created,Updated,Started,Triaged,Completed,Canceled,Archived,Due Date,Parent issue,Initiatives,Project Milestone ID,Project Milestone,SLA Status,Roadmaps
+BIT-10,BitSquad,User stories,"| ID | As a… | i… | because… | Priority | Duration (hours) |
+| -- | -- | -- | -- | -- | -- |
+| 1 | user | want to encounter a page where i can input my display name before i get to the chat page | i want others to be able to recognize me. | MEDIUM | 3 |
+| 2 | user | want to see the messages of others | i want to know what others are saying. | HIGH | 5 |
+| 3 | user | want to be able to send messages | i want to be able to communicate with others | HIGH | 3 |
+| 4 | user | want to get a notification when a message is sent | i want to know when there are people actively messaging in the chat | LOW | 4 |
+| 5 | user | want to know at what time messages were sent | i want to know more about the messages i am reading. | LOW | 1 |
+| 6 | user | want to be able to read older messages | i want to be able to read older messages. | MEDIUM | 3 |
+| 7 | user | want to be able to react to other messages | i want to be able to have a fluent conversation | MEDIUM | 3 |
+",Backlog,,No priority,,,son@vdburg.site,,,,,,,Tue May 20 2025 08:33:55 GMT+0000 (GMT),Wed May 21 2025 07:39:33 GMT+0000 (GMT),,,,,,,,,,,,
+BIT-12,BitSquad,Front-end start page,"Duration: 2 hours
+
+user story: 1",Done,,Medium,,,son@vdburg.site,jair3602017@outlook.com,Feature,,,,,Tue May 20 2025 08:40:18 GMT+0000 (GMT),Wed May 21 2025 07:29:20 GMT+0000 (GMT),Tue May 20 2025 08:41:35 GMT+0000 (GMT),,Wed May 21 2025 07:29:20 GMT+0000 (GMT),,,,,,,,,
+BIT-13,BitSquad,Back-end start page,"Duration: 2 hours
+
+user story: 1",Done,,Medium,,,son@vdburg.site,svenhoeksema@gmail.com,Feature,,,,,Tue May 20 2025 08:41:32 GMT+0000 (GMT),Tue May 20 2025 11:33:51 GMT+0000 (GMT),Tue May 20 2025 08:41:32 GMT+0000 (GMT),,Tue May 20 2025 11:33:51 GMT+0000 (GMT),,,,,,,,,
+BIT-14,BitSquad,Front-end chat page,"Duration: 1 hour
+
+user story: 2",Done,,High,,,son@vdburg.site,jair3602017@outlook.com,Feature,,,,,Tue May 20 2025 08:42:29 GMT+0000 (GMT),Fri May 23 2025 08:42:56 GMT+0000 (GMT),Wed May 21 2025 07:29:23 GMT+0000 (GMT),,Fri May 23 2025 08:42:56 GMT+0000 (GMT),,,,,,,,,
+BIT-15,BitSquad,Back-end chat page,"Duration: 4 hours
+
+user story: 2, 3",Done,,High,,,son@vdburg.site,svenhoeksema@gmail.com,Feature,,,,,Tue May 20 2025 08:42:42 GMT+0000 (GMT),Tue May 20 2025 11:34:08 GMT+0000 (GMT),,,Tue May 20 2025 11:34:08 GMT+0000 (GMT),,,,,,,,,
+BIT-16,BitSquad,Notification Functionality,"Duration: 4 hours
+
+user story: 4",Done,,Low,,,son@vdburg.site,son@vdburg.site,Feature,,,,,Tue May 20 2025 08:43:27 GMT+0000 (GMT),Fri May 23 2025 08:42:57 GMT+0000 (GMT),Thu May 22 2025 10:09:00 GMT+0000 (GMT),,Fri May 23 2025 08:42:57 GMT+0000 (GMT),,,,,,,,,
+BIT-17,BitSquad,Planning,"|  | Tuesday - 20 May | Wednesday - 21 May | Thursday - 22 May | Friday - 23 May |
+| -- | -- | -- | -- | -- |
+| Son | ? Back-end start page | ? Refreshing | Notifications | Presentatie |
+| Sven | ? Back-end start page | ? Time stamps, ? Reactions | ? Reactions | Presentatie |
+| Jair | ? Front-end start page | ? Front-end chat page | ? Front-end chat page | Presentatie |
+| Julius | ? | ? Front-end chat page | ? | ? |
+",Backlog,,No priority,,,son@vdburg.site,,,,,,,Tue May 20 2025 08:56:52 GMT+0000 (GMT),Fri May 23 2025 08:39:53 GMT+0000 (GMT),,,,,,,,,,,,
+BIT-18,BitSquad,Wireframe front-end,"Duration: 2 hours
+
+User story: 1, 2, 3",Done,,High,,,son@vdburg.site,jair3602017@outlook.com,Feature,,,,,Tue May 20 2025 09:04:49 GMT+0000 (GMT),Wed May 21 2025 07:29:06 GMT+0000 (GMT),Tue May 20 2025 09:04:49 GMT+0000 (GMT),,Wed May 21 2025 07:29:06 GMT+0000 (GMT),,,,,,,,,
+BIT-19,BitSquad,Testing,"Duration: 3
+
+User Story: none",Canceled,,Medium,,,son@vdburg.site,son@vdburg.site,Improvement,,,,,Wed May 21 2025 07:31:54 GMT+0000 (GMT),Thu May 22 2025 10:09:04 GMT+0000 (GMT),,,,Thu May 22 2025 10:09:04 GMT+0000 (GMT),,,,,,,,
+BIT-20,BitSquad,Time stamp functionality,"Duration: 1
+
+User story: 5",Done,,Low,,,son@vdburg.site,svenhoeksema@gmail.com,Feature,,,,,Wed May 21 2025 07:36:18 GMT+0000 (GMT),Wed May 21 2025 10:22:10 GMT+0000 (GMT),Wed May 21 2025 07:37:14 GMT+0000 (GMT),,Wed May 21 2025 10:22:10 GMT+0000 (GMT),,,,,,,,,
+BIT-22,BitSquad,Refreshing chat functionality,"Duration: 3
+
+User story: 2, 3",Done,,Medium,,,son@vdburg.site,son@vdburg.site,Feature,,,,,Wed May 21 2025 07:38:18 GMT+0000 (GMT),Wed May 21 2025 10:15:32 GMT+0000 (GMT),Wed May 21 2025 07:38:18 GMT+0000 (GMT),,Wed May 21 2025 10:15:32 GMT+0000 (GMT),,,,,,,,,
+BIT-23,BitSquad,Reaction functionality,"Duration: 3
+
+User story: 7",Done,,Medium,,,son@vdburg.site,svenhoeksema@gmail.com,Feature,,,,,Wed May 21 2025 07:40:38 GMT+0000 (GMT),Thu May 22 2025 10:08:58 GMT+0000 (GMT),Wed May 21 2025 10:22:05 GMT+0000 (GMT),,Thu May 22 2025 10:08:58 GMT+0000 (GMT),,,,,,,,,
